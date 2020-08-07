@@ -1,0 +1,44 @@
+Thanh Pham
+tpham8@u.rochester.edu
+Lab TR 4:50-6:05pm
+
+
+
+javac *.java
+java Graph ur.txt -show
+java Graph monroe.txt -show
+java Graph nys.txt -show
+----
+
+java Graph ur.txt -show -directions SUEB HYLAN
+SUEB, UHS, i76, i60, ITS, i59, i58, i61, i62, MELIORA-SOUTH, i63, i64, i65, i66, i68, i70, i75, HYLAN
+The distance from SUEB to HYLAN is 0.45 miles
+----
+
+java Graph ur.txt -show -directions CROSBY UHS
+CROSBY, i27, i29, i54, GOERGEN-ATHLETIC, i79, i78, i77, i76, UHS
+The distance from CROSBY to UHS is 0.22 miles
+----
+
+java Graph ur.txt -show -directions ITS WILMOT
+ITS, i59, i58, i61, i62, MELIORA-SOUTH, i63, i64, i65, i66, i68, i72, WILMOT
+The distance from ITS to WILMOT is 0.28 miles
+----
+
+java Graph monroe.txt -show -directions i75 i19
+i75, i74, i73, i15769, i15770, i15771, i15772, i15773, i15774, i15775, i15776, i82, i15777, i15778, i15779, i15780, i15781, i15782, i15783, i15784, i15785, i15786, i15787, i15788, i15789, i15214, i15790, i15791, i15792, i15793, i15794, i15224, i15795, i15796, i15797, i15798, i15799, i15800, i15801, i15802, i15803, i15804, i15805, i15806, i15807, i15808, i15809, i15810, i15811, i15812, i15813, i15814, i15815, i15816, i15817, i15818, i15819, i15820, i15821, i15822, i15823, i61455, i36712, i36713, i15832, i3180, i36714, i3190, i15754, i36715, i36716, i15749, i16437, i36717, i3557, i36718, i36719, i36720, i36721, i36722, i36723, i36724, i36725, i36726, i61770, i61771, i61772, i61773, i16413, i37288, i37289, i37290, i37291, i37292, i36966, i36967, i36968, i54144, i26996, i54145, i54146, i54147, i54148, i54149, i54150, i54151, i54152, i54153, i54154, i37357, i37358, i37359, i37360, i37361, i37362, i37363, i8592, i8593, i8594, i8595, i8596, i8597, i8598, i8599, i8600, i8601, i8602, i1789, i1790, i1791, i1792, i1793, i1794, i1795, i1796, i1797, i1798, i1799, i1800, i1801, i19
+The distance from i75 to i19 is 6.69 miles
+----
+
+java Graph monroe.txt -show -directions i75 i1912
+i75, i74, i73, i15769, i15770, i15771, i15772, i15773, i15774, i15775, i15776, i82, i792, i793, i794, i795, i796, i797, i798, i799, i800, i801, i36088, i36083, i36867, i25800, i36868, i36869, i36870, i15182, i36871, i36872, i25904, i36873, i36109, i36874, i36137, i36875, i36876, i15223, i25936, i36140, i36694, i15721, i36877, i36878, i36149, i36879, i15240, i25943, i26202, i36880, i36881, i15270, i36882, i36883, i36884, i36885, i36886, i36887, i36888, i36889, i36890, i26456, i36891, i36892, i36844, i26815, i26826, i618, i36893, i36894, i15937, i15941, i36895, i36896, i26474, i15942, i36897, i36898, i36899, i36900, i36901, i36902, i3521, i3988, i36903, i36904, i36905, i36906, i3451, i26530, i26531, i26532, i26533, i26534, i3283, i26535, i26536, i26537, i26538, i26539, i26540, i3533, i3910, i3911, i3912, i3913, i3914, i3915, i3916, i3917, i3918, i3919, i3920, i3921, i3922, i3923, i3924, i3925, i3926, i3927, i3928, i3929, i3930, i3931, i3932, i37109, i1904, i1905, i1906, i1907, i1908, i1909, i1910, i1911, i1912
+The distance from i75 to i1912 is 5.75 miles
+----
+
+java Graph ur.txt -meridianmap
+r1 r14 r156 r9 r34 r30 r4 r11 r130 r12 r28 r37 r101 r115 r45 r65 r67 r59 r47 r167 r52 r153 r46 r41 r49 r56 r55 r2 r105 r57 r3 r161 r38 r54 r150 r154 r176 r22 r73 r79 r165 r21 r142 r61 r5 r179 r40 r162 r17 r15 r48 r53 r32 r51 r8 r68 r133 r7 r139 r136 r20 r26 r72 r24 r19 r114 r6 r76 r104 r126 r75 r33 r93 r116 r108 r83 r16 r18 r81 r96 r86 r122 r137 r99 r159 r138 r58 r118 r98 r177
+
+
+
+* The outputs directions for nys.txt is too long so I did not include them in this file.
+* The outputs for meridianmap for monroe.txt & nys.txt is too long, so I did not include them in this file.
